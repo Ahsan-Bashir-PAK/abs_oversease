@@ -1,0 +1,24 @@
+.menu {
+    @apply bg-orange-800 rounded-md p-2 hover:bg-orange-200 h-10 px-4 cursor-pointer items-center justify-center align-middle text-white hover:text-black
+}
+
+.tabs {
+    @apply rounded-md bg-slate-300 p-2 border-blue-900  h-64 w-3/12 overflow-hidden
+ transition ease-in-out delay-100  hover:-translate-y-3 hover:brightness-125 
+}
+
+.tabs_img {
+    @apply   bg-amber-800 opacity-90 hover:opacity-100 hover:cursor-pointer justify-center items-center text-center 
+}
+.footer {
+    @apply  flex flex-row p-4 w-full h-96 overflow-hidden bg-[#050338]
+}
+.copyright{
+    @apply w-full bg-[#151d4b] text-white justify-center items-center align-middle text-center mb-4
+}
+.social_links {
+    @apply flex flex-row hover:cursor-pointer gap-1  align-middle items-center hover:underline
+}
+.about_us{
+    @apply text-wrap flex text-lg w-8/12  h-full border-black flex-wrap p-2 justify-evenly overflow-x-scroll
+}
