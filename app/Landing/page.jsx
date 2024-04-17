@@ -19,23 +19,26 @@ const Homepage = () => {
 
    return (
     
-          <div className='border-black w-full h-[1900px]  flex '>
+          <div className='border-black w-full h-[2300px]  flex '>
              {/* Main Screen */}
              <div className='border-black 
               bg-cyan-600-100 w-10/12 h-full m-auto flex flex-col '>
-                    {/* Menu bar */}
-                    <div className='bg-gradient-to-tr from-orange-600 to-orange-500 flex w-full h-20 p-2 flex-row'>
-                      <div className='w-3/12'><Image src={logo} className='w-40 h-16 '/></div>
-                      <div className=' w-3/12'></div>
-                      <div className=' w-6/12 flex flex-row p-2 gap-4 '>
+                    {/* Menu bar from-red-600 to-orange-500 */}
+                    <div className='bg-gradient-to-tr  bg-[#050338] flex w-full h-20 p-2 flex-row'>
+                      <div className='w-3/12'><Image src={logo} className='w-40 h-14 '/></div>
+                      <div className=' w-2/12'></div>
+                      <div className=' w-7/12 flex flex-row p-2 gap-4 '>
                           <div className='menu'> <a href="#home">Home</a></div>
                           <div className='menu'><a href="#about">About Us</a></div>
                           <div className='menu'>Services</div>
                           <div className='menu'>Contact Us</div>
+                          <div className='menu'>Contact Us</div>
+                          
+                          
+                          
                       </div>
                       
                     </div>
-
 
                     {/* slider */}
                     <div className='bg-black flex'>
@@ -87,12 +90,12 @@ const Homepage = () => {
 
                     
                     {/* Services */}
-                    <div  className='border-black border-2 w-full h-96 overflow-hidden'>
+                    <div  className='border-black border-2 w-full h-[500px] overflow-hidden'>
                             <p id="home">HOME sdjf;lsdjf ldsjfkldsjfldskjf lsdjf sdljfklds;j fkldsjf ldsjfldsjfldskjfldsjfldsj flsd</p>
                     </div>
 
                     {/* About Us */}
-                    <div  className='border-black w-full h-[500px] flex flex-row'>
+                    <div  className='border-black w-full h-[600px] flex flex-row'>
                            
                             <div id="about" className='about_us'>
                             <h1 className='text-black font-bold' >About Us</h1> <br/>
@@ -114,32 +117,39 @@ const Homepage = () => {
                     </div>
 
                     {/* Footer */}
-                    <div className='footer'>
-                        <div className=' w-4/12 h-full bg-[#050338] align-middle justify-center items-center'>
-                        <Image src={logo} className='w-80'/>
+                    <div className='footer '>
+                        <div className=' p-4 w-4/12 h-full border-white border bg-[#050338] align-middle justify-center items-center'>
+                        <Image src={logo} className='w-56'/>
                         </div>
 
-                        <div className=' p-6  w-4/12 h-full bg-[#151d4b] text-white'>
+                        <div className=' p-4   border-white border w-3/12 h-full bg-[#151d4b] text-white'>
                                 <h1 className='text-2xl'>
-                                  Social Links</h1>
+                                  Social Links
+                                  </h1>
                                 <h4 className='social_links'>
                                 <FaSquareFacebook color='blue'/>
-                                  Facebbok</h4>
+                                  <Link href="https://www.facebook.com/absoverseasconsultant">Facebook </Link></h4>
                                 <h4 className='social_links'>
                                 <FaInstagramSquare color='red'/>
-                                  Instagram</h4>
+                                  <Link href="https://www.instagram.com/absoverseasconsultantspk">Instagram</Link></h4>
                                 <h4 className='social_links'>
                                 <IoLogoWhatsapp color='green'/>
-                                  WhatsApp</h4>
+                                  <Link href="https://wa.me/923005003992">WhatsApp</Link></h4>
                                
                         </div>
 
-                        <div className=' p-6  w-4/12 h-full bg-[#151d4b] text-white '>
+                        <div className=' p-4  w-3/12 h-full border-white border bg-[#151d4b] text-white '>
                           <h1 className='text-white text-2xl' >Pages</h1>
                           <h5 className='text-white'><a href="#home">Home</a></h5>
                           <h5 className='text-white'><a href="#about">About Us</a></h5>
                           <h5 className='text-white'>Services</h5>
                           <h5 className='text-white'>Contact Us</h5>
+                        </div>
+
+                        <div className=' p-4  w-3/12 h-full border-white border bg-[#151d4b] text-white '>
+                          <h1 className='text-white text-lg' >Newsletter Subscribe</h1>
+                          <input type="text" name="" id="" />
+                          
                         </div>
                     </div>
                     {/* bottom line footer */}

@@ -1,5 +1,5 @@
 .menu {
-    @apply bg-orange-800 rounded-md p-2 hover:bg-orange-200 h-10 px-4 cursor-pointer items-center justify-center align-middle text-white hover:text-black
+    @apply bg-white rounded-md p-2 hover:bg-[#151436] hover:border hover:border-white h-10 px-4 cursor-pointer items-center justify-center align-middle text-black hover:text-white
 }
 
 .tabs {
