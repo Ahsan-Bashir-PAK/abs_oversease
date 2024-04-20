@@ -1,9 +1,9 @@
 .menu {
-    @apply bg-white rounded-md p-2 hover:bg-[#151436] hover:border hover:border-white h-10 px-4 cursor-pointer items-center justify-center align-middle text-black hover:text-white
+    @apply bg-white rounded-md p-2 hover:bg-[#151436]  h-10 px-4 cursor-pointer items-center justify-center align-middle text-black hover:text-white
 }
 
 .tabs {
-    @apply rounded-md bg-slate-300 p-2 border-blue-900  h-64 w-3/12 overflow-hidden
+    @apply rounded-md bg-slate-100 p-4 border-blue-900  h-64 w-3/12 overflow-hidden
  transition ease-in-out delay-100  hover:-translate-y-3 hover:brightness-125 
 }
 
@@ -14,11 +14,24 @@
     @apply  flex flex-row p-4 w-full h-96 overflow-hidden bg-[#050338]
 }
 .copyright{
-    @apply w-full bg-[#151d4b] text-white justify-center items-center align-middle text-center mb-4
+    @apply w-full bg-[#151d4b] text-white justify-center items-center align-middle text-center mb-4 p-4 text-sm
 }
 .social_links {
-    @apply flex flex-row hover:cursor-pointer gap-1  align-middle items-center hover:underline
+    @apply flex flex-row hover:cursor-pointer gap-1  align-middle items-center hover:underline m-4
 }
 .about_us{
     @apply text-wrap flex text-lg w-8/12  h-full border-black flex-wrap p-2 justify-evenly overflow-x-scroll
 }
+
+
+/* Apply Now Page*/
+.apply_div {
+  @apply   w-full border py-4 border-black h-fit bg-slate-100 flex flex-col px-20 justify-center items-center
+}
+.apply_div div {
+    @apply p-2 flex flex-row
+}
+.apply_div input {
+    @apply  p-2 rounded-sm ml-2 border border-b-slate-800  w-10/12
+}
+
