@@ -10,6 +10,10 @@ import study from '../img/study.jpg'
 import job from '../img/job.jpg'
 import immig from '../img/immig.jpg'
 import about_us from '../img/about.png'
+import apply_now_header from '../img/apply-now-header1.png'
+import france from '../img/france.png'
+import uk from '../img/UK.png'
+import  australia from '../img/australia.png'
 import { FaSquareFacebook } from "react-icons/fa6";
 import { IoLogoWhatsapp } from "react-icons/io";
 import { FaInstagramSquare } from "react-icons/fa";
@@ -18,6 +22,7 @@ import { BsWhatsapp } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 import { BiArrowToTop } from "react-icons/bi";
 import'../Landing/landing.css'
+import { Fraunces } from 'next/font/google';
 const Homepage = () => {
   
 function getTop () {
@@ -35,7 +40,7 @@ function getTop () {
                     <div className=' flex flex-1 mt-28'>
                       
                     <div className='border-black bg-red-200 w-full h-[450px] justify-center items-center overflow-hidden'>
-                      <Image src={slider} className='w-full ' />
+                      <Image src={slider} className='w-full block' />
                     </div>
                       {/* <div className=' flex absolute w-10/12  items-center align-middle p-6  h-96 flex-col'>
                       <p className=' font-bold text-black bg-white p-4 rounded-md'>ABS Overseas Education</p>
@@ -48,7 +53,7 @@ function getTop () {
                             <h1 className='font-bold text-4xl text-center text-blue-950'> Services We Offer!</h1>
                     </div>
                     {/* body below slider */}
-                    <div className=' p-2  w-full h-[620px] overflow-hidden flex-row flex gap-2'>
+                    <div className=' p-2  w-full h-[380px] overflow-hidden flex-row flex gap-2'>
                           
                           <div className='tabs   '>
                           <Image src={study} className='h-80 hover:cursor-pointer 
@@ -82,15 +87,40 @@ function getTop () {
                           
                     </div>
                   
-                  {/* Our Partners */}
-                  <div className=' bg-slate-200 p-4  w-full h-[80px]  flex-1 gap-2  flex justify-center items-center'>
-                            <h1 className='font-bold text-4xl text-center text-blue-950'> Our Partners!</h1>
+                    <div className=' bg-slate-200 p-4 mt-10 w-full h-[80px]  flex-1 gap-2  flex justify-center items-center'>
+                            <h1 className='font-bold text-4xl text-center text-blue-950'> Offering Abroad Study Visas!</h1>
                     </div>
+                    {/* body below slider */}
+                    <div className=' p-2  w-full h-[380px] overflow-hidden flex-row flex gap-2'>
+                          
+                          <div className='  w-4/12 border-black  '>
+                          <Image src={uk} className='h-80 hover:cursor-pointer w-full
+                          '/>
+                            <div className='tabs_heading  '>
+                            <h1 className=' '>UK</h1>
+                            </div>
+                          </div>
+                          <div className='w-4/12 '>
+                          <Image src={france} className='h-80 hover:cursor-pointer w-full
+                          '/>
+                            <div className='tabs_heading '>
+                              <h1 className=' '>France</h1>
+                            </div>
+                          </div>
+                          <div className='w-4/12'>
+                          <Image src={australia} className='h-80 hover:cursor-pointer w-full
+                          '/>
+                            <div className='tabs_heading '>
+                              <h1 className=' '>Australia</h1>
+                            </div>
+                          </div>
+                          
+                          
+                          
+                    </div>
+                  
                     
-                    {/* Services */}
-                    <div  className='w-full h-[800px] overflow-hidden p-4'>
-                            <p id="home">HOME sdjf;lsdjf ldsjfkldsjfldskjf lsdjf sdljfklds;j fkldsjf ldsjfldsjfldskjfldsjfldsj flsd</p>
-                    </div>
+                   
 
                     <div className=' p-4 bg-slate-200 w-full h-[80px]  flex-1 gap-2  flex justify-center items-center'>
                             <h1 className='font-bold text-4xl text-center text-blue-950'> About Us!</h1>
@@ -110,6 +140,15 @@ function getTop () {
                            
                             We are your premier destination for all your study visa needs in the United Kingdom. Our consultancy is dedicated to helping students from all over the world achieve their dreams of studying in the UK.</p>
                             
+                            
+                    </div>
+
+{/* About Us */}
+<div  className=' w-full h-[230px] flex-1   justify-center items-center '>
+    <div className=' top-44 py-4 relative  w-full  justify-center items-center flex-1 text-center  '>
+                                <h1 className=' text-[#050338] p-2 font-bold text-6xl '><Link href="/Landing/applyNow">Apply Now</Link></h1>
+                  </div>
+<Image src={apply_now_header} className='w-full ' />
                             
                     </div>
 
@@ -150,7 +189,7 @@ function getTop () {
                           <h5 className='text-white px-4 m-2' ><a href="#about">About Us</a></h5>
                           <h5 className='text-white px-4 m-2'>Services</h5>
                           <h5 className='text-white px-4 m-2'>Contact Us</h5>
-                          <h5 className='text-white px-4 m-2'>Apply Now</h5>
+                          <h5 className='text-white px-4 m-2'><Link href="/Landing/applyNow">Apply Now</Link></h5>
                         </div>
 
                         <div className=' p-4 rounded-lg w-3/12 h-full  bg-gradient-to-r from-[#050338] to-blue-900 text-white '>
