@@ -9,12 +9,12 @@ const ApplyNow = () => {
 
   return (
     <div className='w-full  h-fit bg-slate-500'>
-        <div className='w-full  h-60 bg-slate-500'>
+        <div className='w-full  h-80 bg-slate-500 '>
         <Image src={apply} />
         </div>
         <div className='apply_div' >
                 <div className='flex flex-row gap-4'>
-                    <h1 className='text-2xl font-light text-red-600'>
+                    <h1 className='text-2xl font-bold text-red-600'>
                     Get Free Consultation Now </h1>
                     <TfiDirectionAlt size={30} color='red'/>
                 </div>
