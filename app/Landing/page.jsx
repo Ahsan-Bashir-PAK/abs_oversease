@@ -25,7 +25,7 @@ function getTop () {
 }
    return (
     
-          <div className='border-black w-full h-[3000px]  flex '>
+          <div className='border-black w-full h-full  flex '>
              {/* Main Screen */}
              <div className='border-black 
               bg-cyan-600-100 w-full h-full m-auto flex flex-col '>
@@ -150,6 +150,7 @@ function getTop () {
                           <h5 className='text-white px-4 m-2' ><a href="#about">About Us</a></h5>
                           <h5 className='text-white px-4 m-2'>Services</h5>
                           <h5 className='text-white px-4 m-2'>Contact Us</h5>
+                          <h5 className='text-white px-4 m-2'>Apply Now</h5>
                         </div>
 
                         <div className=' p-4 rounded-lg w-3/12 h-full  bg-gradient-to-r from-[#050338] to-blue-900 text-white '>
