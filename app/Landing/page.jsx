@@ -14,6 +14,9 @@ import apply_now_header from '../img/apply-now-header1.png'
 import france from '../img/france.png'
 import uk from '../img/UK.png'
 import  australia from '../img/australia.png'
+import  germany from '../img/germany.png'
+import  canada from '../img/canada.png'
+import  austria from '../img/austria.png'
 import { FaSquareFacebook } from "react-icons/fa6";
 import { IoLogoWhatsapp } from "react-icons/io";
 import { FaInstagramSquare } from "react-icons/fa";
@@ -112,6 +115,33 @@ function getTop () {
                           '/>
                             <div className='tabs_heading '>
                               <h1 className=' '>Australia</h1>
+                            </div>
+                          </div>
+                          
+                          
+                          
+                    </div>
+                    <div className=' p-2  w-full h-[380px] overflow-hidden flex-row flex gap-2'>
+                          
+                          <div className='  w-4/12 border-black  '>
+                          <Image src={germany} className='h-80 hover:cursor-pointer w-full
+                          '/>
+                            <div className='tabs_heading  '>
+                            <h1 className=' '>Germany</h1>
+                            </div>
+                          </div>
+                          <div className='w-4/12 '>
+                          <Image src={canada} className='h-80 hover:cursor-pointer w-full
+                          '/>
+                            <div className='tabs_heading '>
+                              <h1 className=' '>Canada</h1>
+                            </div>
+                          </div>
+                          <div className='w-4/12'>
+                          <Image src={austria} className='h-80 hover:cursor-pointer w-full
+                          '/>
+                            <div className='tabs_heading '>
+                              <h1 className=' '>Austria</h1>
                             </div>
                           </div>
                           
