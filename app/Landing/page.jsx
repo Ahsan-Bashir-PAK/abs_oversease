@@ -17,6 +17,7 @@ import  australia from '../img/australia.png'
 import  germany from '../img/germany.png'
 import  canada from '../img/canada.png'
 import  austria from '../img/austria.png'
+import  student_pic from '../img/shoaib.png'
 import { FaSquareFacebook } from "react-icons/fa6";
 import { IoLogoWhatsapp } from "react-icons/io";
 import { FaInstagramSquare } from "react-icons/fa";
@@ -24,6 +25,7 @@ import { VscCallIncoming } from "react-icons/vsc";
 import { BsWhatsapp } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 import { BiArrowToTop } from "react-icons/bi";
+import { FaLocationDot } from "react-icons/fa6";
 import'../Landing/landing.css'
 import { Fraunces } from 'next/font/google';
 const Homepage = () => {
@@ -100,21 +102,21 @@ function getTop () {
                           <Image src={uk} className='h-80 hover:cursor-pointer w-full
                           '/>
                             <div className='tabs_heading  '>
-                            <h1 className=' '>UK</h1>
+                            <h1 className='text-xl font-semibold'>United Kingdom</h1>
                             </div>
                           </div>
                           <div className='w-4/12 '>
                           <Image src={france} className='h-80 hover:cursor-pointer w-full
                           '/>
                             <div className='tabs_heading '>
-                              <h1 className=' '>France</h1>
+                              <h1 className='text-xl font-semibold'>France</h1>
                             </div>
                           </div>
                           <div className='w-4/12'>
                           <Image src={australia} className='h-80 hover:cursor-pointer w-full
                           '/>
                             <div className='tabs_heading '>
-                              <h1 className=' '>Australia</h1>
+                              <h1 className='text-xl font-semibold'>Australia</h1>
                             </div>
                           </div>
                           
@@ -127,21 +129,21 @@ function getTop () {
                           <Image src={germany} className='h-80 hover:cursor-pointer w-full
                           '/>
                             <div className='tabs_heading  '>
-                            <h1 className=' '>Germany</h1>
+                            <h1 className='text-xl font-semibold'>Germany</h1>
                             </div>
                           </div>
                           <div className='w-4/12 '>
                           <Image src={canada} className='h-80 hover:cursor-pointer w-full
                           '/>
                             <div className='tabs_heading '>
-                              <h1 className=' '>Canada</h1>
+                              <h1 className='text-xl font-semibold'>Canada</h1>
                             </div>
                           </div>
                           <div className='w-4/12'>
                           <Image src={austria} className='h-80 hover:cursor-pointer w-full
                           '/>
                             <div className='tabs_heading '>
-                              <h1 className=' '>Austria</h1>
+                              <h1 className='text-xl font-semibold'>Austria</h1>
                             </div>
                           </div>
                           
@@ -157,25 +159,59 @@ function getTop () {
                     </div>
 
                     {/* About Us */}
-                    <div  className='border-black w-full h-[600px] flex  justify-evenly '>
-                      <p className='text-lg justify-center p-4 '>
+                    <div  className='border-black w-full h-[660px] flex  justify-evenly text-justify '>
+                      <p className='text-xl justify-center p-4 leading-1'>
                           
-                          <Image src={about_us} className='float-left h-80 w-96 mr-6 rounded-2xl shadow-lg shadow-black'/>
-                        
-                            We are your premier destination for all your study visa needs in the United Kingdom. Our consultancy is dedicated to helping students from all over the world achieve their dreams of studying in the UK.
-                            At ABS Overseas, we understand that navigating the complexities of the UK visa process can be daunting. That's why we offer personalized consultancy services to guide you through every step of the application process. Whether you need assistance with filling out forms, gathering necessary documents, or preparing for interviews, our team of experts is here to support you every step of the way.
-                            Our consultancy prides itself on our extensive knowledge of the UK visa system and our commitment to providing exceptional customer service. We work closely with each of our clients to understand their unique needs and tailor our services to ensure their success.
-                            Our consultancy prides itself on our extensive knowledge of the UK visa system and our commitment to providing exceptional customer service. We work closely with each of our clients to understand their unique needs and tailor our services to ensure their success.
-                            Our consultancy prides itself on our extensive knowledge of the UK visa system and our commitment to providing exceptional customer service. We work closely with each of our clients to understand their unique needs and tailor our services to ensure their success.
-                           
-                            We are your premier destination for all your study visa needs in the United Kingdom. Our consultancy is dedicated to helping students from all over the world achieve their dreams of studying in the UK.</p>
+                          <Image src={about_us} className='float-left h-96 w-2/5 mr-6 mb-4 rounded-2xl shadow-lg shadow-black text-justify'/>
+                          <b>Welcome to ABS Overseas Consultants (Pvt) Ltd</b>, your gateway to global education and boundless opportunities! We are a dynamic team of professionals dedicated to guiding you through the exciting journey of studying abroad i.e. United Kingdom (UK), 
+                          Australia, Canada and Euorpe as well.
+                          <br/>
+                          At ABS Overseas Consultants, we recognize the transformative power of international education. Whether it's exploring new cultures, mastering a foreign language, or gaining hands-on experience in your field of study, studying abroad opens doors to a world of possibilities.
+                          <br/>
+                          Our mission is to simplify the complex process of securing student visas and navigating the intricacies of international education. With years of expertise and a deep understanding of immigration regulations, we are committed to providing you with the guidance and support you need to make your dream of studying abroad a reality.
+                          <br/><br/>
+                          What sets us apart is our personalized approach. We understand that every student is unique, with their own aspirations, challenges, and dreams. That's why we take the time to listen to your goals and tailor our services to meet your specific needs. From selecting the right course and university to preparing meticulous visa documentation, our experienced consultants are here to support you every step of the way.
+                          <br/>
+                          At ABS Overseas Consultants, integrity, transparency, and professionalism are the cornerstones of our business. We believe in providing honest advice and ethical assistance to ensure your journey abroad is smooth and successful.
+                          
+                          Join  <b>ABS Overseas Consultants</b> be your trusted career partner as you take the first step towards a brighter future! <Link href="/Landing/applyNow" className='hover:cursor-pointer text-lg font-bold text-blue-950'>Apply Now</Link>
+
+
+                           </p>
                             
                             
                     </div>
 
-{/* About Us */}
-<div  className=' w-full h-[230px] flex-1   justify-center items-center '>
-    <div className=' top-44 py-4 relative  w-full  justify-center items-center flex-1 text-center  '>
+{/* Testimonials */}
+                    <div className=' bg-slate-200 p-4 mt-10 w-full h-[80px]  flex-1 gap-2  flex justify-center items-center'>
+                            <h1 className='font-bold text-4xl text-center text-blue-950'> Testimonials</h1>
+                    </div>
+
+                    <div className=' p-4  w-full h-[400px] overflow-hidden flex-row flex gap-4'>
+                          
+                          <div className=' p-6 text-lg  w-6/12 border-black bg-slate-200 text-justify '>
+                            <p>ABS Overseas Consultants provided me invaluable assistance throughout my visa application process. The comprehensive resources and personalized guidance helped me navigate the complexities with confidence. Thanks to their support, I successfully obtained my study visa and am now pursuing my dreams study abroad i.e. UK. I highly recommend this platform to any student seeking visa assistance.</p>
+                            <h4>Shoaib Amjad, Pakistan</h4>
+                            <div className='tabs_heading border rounded-full overflow-hidden ml-48 border-black w-40 h-40 flex-1 items-center justify-center text-center '>
+                            <Image src={student_pic} className='rounded-full'/>
+                            </div>
+                          </div>
+                          <div className=' p-6 text-lg  w-6/12 border-black bg-slate-200 text-justify '>
+                            <p>ABS Overseas Consultants provided me invaluable assistance throughout my visa application process. The comprehensive resources and personalized guidance helped me navigate the complexities with confidence. Thanks to their support, I successfully obtained my study visa and am now pursuing my dreams study abroad i.e. UK. I highly recommend this platform to any student seeking visa assistance.</p>
+                            <h4>Sumbal Chuhan, Pakistan</h4>
+                            <div className='tabs_heading border rounded-full overflow-hidden ml-48 border-black w-40 h-40 flex-1 items-center justify-center text-center '>
+                            <Image src={student_pic} className='rounded-full'/>
+                            </div>
+                          </div>
+                          
+                          
+                          
+                          
+                    </div>
+
+{/* apply now  */}
+<div  className=' w-full h-[240px] flex-1  border border-black justify-center items-center '>
+    <div className=' top-44 py-4 relative border border-black w-full  justify-center items-center flex-1 text-center  '>
                                 <h1 className=' text-[#050338] p-2 font-bold text-6xl '><Link href="/Landing/applyNow">Apply Now</Link></h1>
                   </div>
 <Image src={apply_now_header} className='w-full ' />
@@ -188,7 +224,7 @@ function getTop () {
                         <Image src={logo} className='w-56'/>
                         
                         <div>
-                        <h1 className='px-2 text-lg mt-4 text-white'>Get in touch with us</h1>
+                        <h1 className='px-2 text-lg mt-4 text-white'>Get connected through Social Media</h1>
                           <div className=' p-2 flex flex-row gap-2'>
                           <Link href="https://www.facebook.com/absoverseasconsultant"><FaSquareFacebook color='white' size={30} /> </Link>
                           <Link href="https://www.instagram.com/absoverseasconsultantspk"><FaInstagramSquare color='white' size={30}/> </Link>
@@ -223,21 +259,25 @@ function getTop () {
                         </div>
 
                         <div className=' p-4 rounded-lg w-3/12 h-full  bg-gradient-to-r from-[#050338] to-blue-900 text-white '>
-                          <h1 className='text-white text-lg' >Subscribe our Newsletter</h1>
+                          <h1 className='text-white text-lg mb-2' >Subscribe our Newsletter</h1>
                           <input type="text" name="" id="" className=' rounded-sm p-2 w-full text-black' placeholder='Enter Email address'/>
                           <input type="Button" name="" id="" value="Subscribe" className=' rounded-sm mt-2 bg-slate-100 p-1 cursor-pointer hover:bg-blue-100 text-blue-900 font-bold w-full' />
 
-                          <h1 className='text-white text-lg' >Contact Us</h1>
-                          <h6 className='text-white px-4 social_links'>
+                          <h1 className='text-white text-lg mt-4' >Contact Us</h1>
+                          <h6 className='text-white  social_links'>
                             <VscCallIncoming/>
                             +92 300 500 3992</h6>
-                          <h6 className='text-white px-4 social_links'>
+                          <h6 className='text-white  social_links'>
                             <BsWhatsapp/>
                             <Link href="https://wa.me/923005003992"> +92 300 500 3992</Link>
                           </h6>
-                          <h6 className='text-white px-4 social_links'>
+                          <h6 className='text-white social_links'>
                           <MdEmail/>
                             <Link href="">info@absconsultant.co.uk</Link>
+                          </h6>
+                          <h6 className='text-white text-sm  social_links'>
+                          <FaLocationDot/>
+                            <Link href="">Liberty Market, Gulberg-III, Lahore</Link>
                           </h6>
                         </div>
                     </div>
