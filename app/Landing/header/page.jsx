@@ -9,13 +9,16 @@ import { MdEmail } from "react-icons/md";
 import { FaSquareFacebook } from "react-icons/fa6";
 import { IoLogoWhatsapp } from "react-icons/io";
 import { FaInstagramSquare } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+
+import { PiTiktokLogoFill } from "react-icons/pi";
 import'../../Landing/landing.css'
 const Homepage = () => {
   
 
    return (
     
-          <div className=' w-full   flex flex-col fixed'>
+          <div className=' w-full   flex flex-col sticky top-0'>
              <div className='bg-[#050338] flex flex-row w-full   text-white '>
                 <div className='flex flex-row  w-6/12 justify-start items-start'>
                <h6 className='text-white  social_links'>
@@ -30,6 +33,10 @@ const Homepage = () => {
                           <Link href="https://www.instagram.com/absoverseasconsultantspk"><FaInstagramSquare color='white' size={20}/> </Link>
                           <Link href="https://wa.me/923005003992">
                             <IoLogoWhatsapp color='white' size={20}/></Link>
+                            <Link href="https://www.linkedin.com/company/abs-overseas-consultants">
+                            <FaLinkedin color='white' size={20}/></Link>
+                            <Link href="absconsultant.co.uk">
+                            <PiTiktokLogoFill color='white' size={20}/></Link>
                           </div>         
              </div>
 
@@ -41,11 +48,12 @@ const Homepage = () => {
                       <div className='w-3/12'><Image src={logo} className='w-40 h-14 '/></div>
                       <div className=' w-3/12'></div>
                       <div className=' w-6/12 flex flex-row p-2 gap-4 '>
-                          <div className='menu'> <a href="#home">Home</a></div>
-                          <div className='menu'><a href="#about">About Us</a></div>
-                          <div className='menu'>Services</div>
-                          <div className='menu'>Contact Us</div>
+                          <div className='menu'> <a href="/">Home</a></div>
+                          <div className='menu'><a href="/Landing/aboutUs">About Us</a></div>
+                          <div className='menu'><a href="/Landing/services">Services</a></div>
+
                           <div className='menu'><Link href="/Landing/applyNow">Apply Now</Link></div>
+                          <div className='menu'><Link href="/Landing/blog">Blog</Link></div>
                           
                       </div>
                       
