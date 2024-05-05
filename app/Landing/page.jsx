@@ -5,14 +5,16 @@ import Link from 'next/link';
 import Image from 'next/image';
 import logo from '../img/logo.png';
 import slider from '../img/slider.png'
-import visitor from '../img/visitor.jpg'
-import study from '../img/study.jpg'
-import job from '../img/job.jpg'
-import immig from '../img/immig.jpg'
+import university from '../img/university.png'
+import visa from '../img/visa.png'
+import scholorship from '../img/scholorship.png'
+
+import career from '../img/career.png'
 import about_us from '../img/about.png'
 import apply_now_header from '../img/apply-now-header1.png'
 import france from '../img/france.png'
 import uk from '../img/UK.png'
+
 import  australia from '../img/australia.png'
 import  germany from '../img/germany.png'
 import  canada from '../img/canada.png'
@@ -63,31 +65,32 @@ function getTop () {
                     <div className=' p-2  w-full h-[380px] overflow-hidden flex-row flex gap-2'>
                           
                           <div className='tabs   '>
-                          <Image src={study} className='h-80 hover:cursor-pointer 
+                          <Image src={career} alt="Career Councelling" className='h-80 hover:cursor-pointer 
                           '/>
                             <div className='tabs_heading '>
-                            <h1 className=' '>Personalized Assistance</h1>
+                            <h1 className=' '>Career Councelling</h1>
+                            </div>
+                          </div>
+                         
+                          <div className='tabs'>
+                          <Image src={university} alt="University Selection Process" className='h-80 hover:cursor-pointer 
+                          '/>
+                            <div className='tabs_heading '>
+                              <h1 className=' '>University Selection </h1>
                             </div>
                           </div>
                           <div className='tabs'>
-                          <Image src={visitor} className='h-80 hover:cursor-pointer 
+                          <Image src={scholorship} alt="Scholorships & Financial Aid" className='h-80 hover:cursor-pointer 
                           '/>
                             <div className='tabs_heading '>
-                              <h1 className=' '>Personalized Assistance</h1>
+                              <h1 className=' '>Scholorships & Financial Aid</h1>
                             </div>
                           </div>
                           <div className='tabs'>
-                          <Image src={job} className='h-80 hover:cursor-pointer 
+                          <Image src={visa} alt="VISA Guidance & Processing" className='h-80 hover:cursor-pointer 
                           '/>
                             <div className='tabs_heading '>
-                              <h1 className=' '>University Selection Assistance</h1>
-                            </div>
-                          </div>
-                          <div className='tabs'>
-                          <Image src={immig} className='h-80 hover:cursor-pointer 
-                          '/>
-                            <div className='tabs_heading '>
-                              <h1 className=''>IELTS preparations</h1>
+                              <h1 className=''>VISA Guidance & Processing</h1>
                             </div>
                           </div>
                           
@@ -184,16 +187,16 @@ function getTop () {
                             <h1 className='font-bold text-4xl text-center text-blue-950'> Testimonials</h1>
                     </div>
 
-                    <div className=' p-4  w-full h-[400px] overflow-hidden flex-row flex gap-4'>
+                    <div className=' p-4  w-full h-[420px] overflow-hidden flex-row flex gap-4'>
                           
-                          <div className=' p-6 text-lg  w-6/12 border-black bg-slate-200 text-justify '>
+                          <div className=' p-6 text-lg  w-6/12 border-black bg-gradient-to-r from-slate-200 to-slate-400 hover:bg-gradient-to-bl text-justify '>
                             <p>ABS Overseas Consultants provided me invaluable assistance throughout my visa application process. The comprehensive resources and personalized guidance helped me navigate the complexities with confidence. Thanks to their support, I successfully obtained my study visa and am now pursuing my dreams study abroad i.e. UK. I highly recommend this platform to any student seeking visa assistance.</p>
                             <h4>Shoaib Amjad, Pakistan</h4>
                             <div className='tabs_heading border rounded-full overflow-hidden ml-48 border-black w-40 h-40 flex-1 items-center justify-center text-center '>
                             <Image src={student_pic} className='rounded-full'/>
                             </div>
                           </div>
-                          <div className=' p-6 text-lg  w-6/12 border-black bg-slate-200 text-justify '>
+                          <div className='  p-6 text-lg  w-6/12 border-black bg-gradient-to-bl from-slate-200 to-slate-400 hover:bg-gradient-to-r text-justify '>
                             <p>ABS Overseas Consultants provided me invaluable assistance throughout my visa application process. The comprehensive resources and personalized guidance helped me navigate the complexities with confidence. Thanks to their support, I successfully obtained my study visa and am now pursuing my dreams study abroad i.e. UK. I highly recommend this platform to any student seeking visa assistance.</p>
                             <h4>Sumbal Chuhan, Pakistan</h4>
                             <div className='tabs_heading border rounded-full overflow-hidden ml-48 border-black w-40 h-40 flex-1 items-center justify-center text-center '>
@@ -207,10 +210,11 @@ function getTop () {
                     </div>
 
 {/* apply now  */}
-<div  className=' w-full h-[240px] flex-1  border border-black justify-center items-center '>
-    <div className=' py-4  border border-black w-full  justify-center items-center flex-1 text-center  '>
-                                <h1 className=' text-[#050338] p-2 font-bold text-6xl '><Link href="/Landing/applyNow">Apply Now</Link></h1>
-                  </div>
+<div  className=' w-full h-[240px] flex-1  justify-center items-center back '>
+  
+    {/* <div className=' h-[282px] border bg-[#050338] opacity-40  hover:opacity-90 w-full  justify-center items-center flex-1 text-center absolute '>
+                                <h1 className=' text-white p-2 font-bold text-6xl mt-24'><Link href="/Landing/applyNow">Apply Now</Link></h1>
+                  </div> */}
 <Image src={apply_now_header} className='w-full bg-fixed' />
                             
                     </div>
@@ -252,11 +256,12 @@ function getTop () {
                         {/* bg-[#151d4b] */}
                         <div className=' p-4 rounded-lg w-3/12 h-full bg-gradient-to-r from-[#050338] to-blue-900 text-white '>
                           <h1 className='text-white text-2xl' >Pages</h1>
-                          <h5 className='text-white px-4 m-2'><a href="#home">Home</a></h5>
-                          <h5 className='text-white px-4 m-2' ><a href="#about">About Us</a></h5>
-                          <h5 className='text-white px-4 m-2'>Services</h5>
-                          <h5 className='text-white px-4 m-2'>Contact Us</h5>
+                          <h5 className='text-white px-4 m-2'><Link href="/">Home</Link></h5>
+                          <h5 className='text-white px-4 m-2' ><Link href="/Landing/aboutUs">About Us</Link></h5>
+                          <h5 className='text-white px-4 m-2'><Link href="/Landing/services">Services</Link></h5>
                           <h5 className='text-white px-4 m-2'><Link href="/Landing/applyNow">Apply Now</Link></h5>
+                          <h5 className='text-white px-4 m-2'><Link href="/Landing/blog">Blog</Link></h5>
+                          
                         </div>
 
                         <div className=' p-4 rounded-lg w-3/12 h-full  bg-gradient-to-r from-[#050338] to-blue-900 text-white '>
@@ -278,7 +283,7 @@ function getTop () {
                           </h6>
                           <h6 className='text-white text-sm  social_links'>
                           <FaLocationDot/>
-                            <Link href="">Liberty Market, Gulberg-III, Lahore</Link>
+                            <Link href="">Main Market, Gulberg-II, Lahore</Link>
                           </h6>
                         </div>
                     </div>

@@ -46,14 +46,14 @@ const Homepage = () => {
                     {/* Menu bar from-red-600 to-orange-500 */}
                     <div className='bg-gradient-to-tr  bg-red-700 flex w-full h-20 p-2 flex-row'>
                       <div className='w-3/12'><Image src={logo} className='w-40 h-14 '/></div>
-                      <div className=' w-3/12'></div>
-                      <div className=' w-6/12 flex flex-row p-2 gap-4 '>
-                          <div className='menu'> <a href="/">Home</a></div>
-                          <div className='menu'><a href="/Landing/aboutUs">About Us</a></div>
-                          <div className='menu'><a href="/Landing/services">Services</a></div>
-
+                      <div className=' w-4/12'></div>
+                      <div className=' w-5/12 flex flex-row p-2 gap-4 '>
+                          <div className='menu'> <Link href="/">Home</Link></div>
+                          <div className='menu'><Link href="/Landing/aboutUs">About Us</Link></div>
+                          <div className='menu'><Link href="/Landing/services">Services</Link></div>
                           <div className='menu'><Link href="/Landing/applyNow">Apply Now</Link></div>
                           <div className='menu'><Link href="/Landing/blog">Blog</Link></div>
+                          
                           
                       </div>
                       

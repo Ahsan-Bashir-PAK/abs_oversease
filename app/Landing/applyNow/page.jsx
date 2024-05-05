@@ -26,7 +26,7 @@ function studentApply () {
         else if(data.city == "") { alert("Please Enter your City Name")}
         else if(data.country == "") { alert("Please Enter your Destination Country")}
         else if(data.question == "") { alert("Please Enter your Question / Query")}
-        else { alert("Thanks! Our represetative will call you soon.")}
+        else { alert("Thanks! Our represetative will call you soon..")}
 }
 
   return (
