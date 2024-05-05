@@ -208,6 +208,22 @@ function getTop () {
                           
                           
                     </div>
+                    <div className=' bg-slate-200 p-4 mt-2 w-full h-[80px]  flex-1 gap-2  flex justify-center items-center'>
+                            <h1 className='font-bold text-4xl text-center text-blue-950'>Blogs / Article</h1>
+                    </div>
+
+                    <div className=' bg-slate-100 p-2 mt-2 w-full h-[80px]  flex-1 gap-2  flex justify-left items-left'>
+                            <h1 className='ml-4 hover:cursor-pointer font-bold text-xl text-center text-blue-950'><Link href="/Landing/blog">How Students Can Beat Language Problems in the UK</Link></h1>
+                            
+                    </div>
+                    <div className=' bg-slate-100 p-2 mt-2 w-full h-[80px]  flex-1 gap-2  flex justify-left items-left'>
+                            <h1 className=' ml-4  font-bold text-xl text-center text-blue-950 hover:cursor-pointer'>Easy Guide to Getting a Master’s Degree in London</h1>
+                            
+                    </div>
+                    <div className=' bg-slate-100 p-2 mt-2 w-full h-[80px]  flex-1 gap-2  flex justify-left items-left'>
+                            <h1 className='ml-4 hover:cursor-pointer font-bold text-xl text-center text-blue-950'>Making Sense of the UK's Immigration Health Surcharge: What You Need to Know</h1>
+                            
+                    </div>
 
 {/* apply now  */}
 <div  className=' w-full h-[240px] flex-1  justify-center items-center back '>

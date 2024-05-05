@@ -18,25 +18,25 @@ const ApplyNow = () => {
         <div className='apply_div' >
                 <div className='flex flex-row gap-4'>
                     <h1 className='text-4xl font-bold text-red-600'>
-                   FIND LATEST BLOGS</h1>
+                   FIND LATEST BLOGS / ARTICLES</h1>
                     
                 </div>
    
         </div>
         
         {/* BLOG POSTS Div */}
-        <div className='border bg-red-100 w-full p-2 flex flex-row justify-center items-center text-center'>
-          <div className='border border-black w-4/12 h-[300px]'>
-                  <h1 className='text-4xl font-bold text-red-600'>
-                    LATEST BLOGS</h1>
+        <div className=' w-full p-2 flex flex-row justify-center items-center text-center'>
+          <div className='w-4/12 h-[300px]'>
+                  <h1 className='bg-blue-950 text-lg p-2 font-bold text-white'>
+                  How Students Can Beat Language Problems in the UK</h1>
             </div>
-            <div className='border border-black w-4/12 h-[300px]'>
-                  <h1 className='text-4xl font-bold text-red-600'>
-                    LATEST BLOGS</h1>
+            <div className=' w-4/12 h-[300px]'>
+                  <h1 className='bg-blue-950 text-lg p-2 font-bold text-white'>
+                  Easy Guide to Getting a Master’s Degree in London</h1>
             </div>
-            <div className='border border-black w-4/12 h-[300px]'>
-                  <h1 className='text-4xl font-bold text-red-600'>
-                    LATEST BLOGS</h1>
+            <div className=' w-4/12 h-[300px]'>
+                  <h1 className='bg-blue-950 text-lg p-2 font-bold text-white'>
+                  Making Sense of the UK's Immigration Health Surcharge: What You Need to Know</h1>
             </div>
             
         </div>
