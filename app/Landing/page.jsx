@@ -171,7 +171,7 @@ function getTop () {
                           <b>Welcome to ABS Overseas Consultants (Pvt) Ltd</b>, your gateway to global education and boundless opportunities! We are a dynamic team of professionals dedicated to guiding you through the exciting journey of studying abroad i.e. United Kingdom (UK), 
                           Australia, Canada and Euorpe as well.
                           <br/>
-                          At ABS Overseas Consultants, we recognize the transformative power of international education. Whether it's exploring new cultures, mastering a foreign language, or gaining hands-on experience in your field of study, studying abroad opens doors to a world of possibilities.
+                          At ABS Overseas Consultants, we recognize the transformative power of international education. Whether it is exploring new cultures, mastering a foreign language, or gaining hands-on experience in your field of study, studying abroad opens doors to a world of possibilities.
                           <br/>
                           Our mission is to simplify the complex process of securing student visas and navigating the intricacies of international education. With years of expertise and a deep understanding of immigration regulations, we are committed to providing you with the guidance and support you need to make your dream of studying abroad a reality.
                           <Link href="/Landing/aboutUs" className='hover:cursor-pointer text-lg font-bold text-blue-950'> read more...</Link>
@@ -217,11 +217,11 @@ function getTop () {
                             
                     </div>
                     <div className=' bg-slate-100 p-2 mt-2 w-full h-[80px]  flex-1 gap-2  flex justify-left items-left'>
-                            <h1 className=' ml-4  font-bold text-xl text-center text-blue-950 hover:cursor-pointer'>Easy Guide to Getting a Master’s Degree in London</h1>
+                            <h1 className=' ml-4  font-bold text-xl text-center text-blue-950 hover:cursor-pointer'>Easy Guide to Getting a Master Degree in London</h1>
                             
                     </div>
                     <div className=' bg-slate-100 p-2 mt-2 w-full h-[80px]  flex-1 gap-2  flex justify-left items-left'>
-                            <h1 className='ml-4 hover:cursor-pointer font-bold text-xl text-center text-blue-950'>Making Sense of the UK's Immigration Health Surcharge: What You Need to Know</h1>
+                            <h1 className='ml-4 hover:cursor-pointer font-bold text-xl text-center text-blue-950'>Making Sense of the UK Immigration Health Surcharge: What You Need to Know</h1>
                             
                     </div>
 

@@ -32,11 +32,11 @@ const ApplyNow = () => {
             </div>
             <div className=' w-4/12 h-[300px]'>
                   <h1 className='bg-blue-950 text-lg p-2 font-bold text-white'>
-                  Easy Guide to Getting a Master’s Degree in London</h1>
+                  Easy Guide to Getting a Master Degree in London</h1>
             </div>
             <div className=' w-4/12 h-[300px]'>
                   <h1 className='bg-blue-950 text-lg p-2 font-bold text-white'>
-                  Making Sense of the UK's Immigration Health Surcharge: What You Need to Know</h1>
+                  Making Sense of the UKs Immigration Health Surcharge: What You Need to Know</h1>
             </div>
             
         </div>

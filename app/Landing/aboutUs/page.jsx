@@ -34,11 +34,11 @@ const ApplyNow = () => {
                           <b>Welcome to ABS Overseas Consultants (Pvt) Ltd</b>, your gateway to global education and boundless opportunities! We are a dynamic team of professionals dedicated to guiding you through the exciting journey of studying abroad i.e. United Kingdom (UK), 
                           Australia, Canada and Euorpe as well.
                           <br/>
-                          At ABS Overseas Consultants, we recognize the transformative power of international education. Whether it's exploring new cultures, mastering a foreign language, or gaining hands-on experience in your field of study, studying abroad opens doors to a world of possibilities.
+                          At ABS Overseas Consultants, we recognize the transformative power of international education. Whether it is exploring new cultures, mastering a foreign language, or gaining hands-on experience in your field of study, studying abroad opens doors to a world of possibilities.
                           <br/>
                           Our mission is to simplify the complex process of securing student visas and navigating the intricacies of international education. With years of expertise and a deep understanding of immigration regulations, we are committed to providing you with the guidance and support you need to make your dream of studying abroad a reality.
                           <br/><br/>
-                          What sets us apart is our personalized approach. We understand that every student is unique, with their own aspirations, challenges, and dreams. That's why we take the time to listen to your goals and tailor our services to meet your specific needs. From selecting the right course and university to preparing meticulous visa documentation, our experienced consultants are here to support you every step of the way.
+                          What sets us apart is our personalized approach. We understand that every student is unique, with their own aspirations, challenges, and dreams. That is why we take the time to listen to your goals and tailor our services to meet your specific needs. From selecting the right course and university to preparing meticulous visa documentation, our experienced consultants are here to support you every step of the way.
                           <br/>
                           At ABS Overseas Consultants, integrity, transparency, and professionalism are the cornerstones of our business. We believe in providing honest advice and ethical assistance to ensure your journey abroad is smooth and successful.
                           
